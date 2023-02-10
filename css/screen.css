@@ -1,4 +1,5 @@
 body {
+  font-family: Arial;
   text-align: center;
   background-color: gray;
   
@@ -51,3 +52,9 @@ input[type=submit] {
   padding: 10px;
 }
 
+@media only screen and (max-width: 620px) {
+  body {
+    font-size: 15px;
+    max-width:100%;
+  }
+}
