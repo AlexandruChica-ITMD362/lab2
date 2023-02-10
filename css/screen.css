@@ -1,5 +1,17 @@
 body {
-  text-align: center;
-  background-color: green;
+  
+  background-color: gray;
 }
 
+h1 {
+  text-align: center;
+  background-color: brown;
+}
+
+label {
+  color: black;
+  background-color: brown;
+  display: inline-block;
+  width: 30%;
+  height: 20px;
+}
